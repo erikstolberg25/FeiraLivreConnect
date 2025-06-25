@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cadastrar Barracas - Sistema de Barracas</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>EVENTOS</h2>
+      <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="cadastrarevento.html" class="active">Cadastrar Barracas</a>
+        <a href="eventos.html">Meus Eventos</a>
+        <a href="perfil.html">Perfil</a>
+        <a href="cadastrocredenciados.html">Cadastrar De Credenciados</a>
+        <a href="index.html">Sair</a>
+      </nav>
+    </aside>
+    <main class="main-content">
+      <header>
+        <h1>Cadastrar Nova Barraca</h1>
+      </header>
+
+      <form class="form-evento" action="#" method="post">
+        <label for="titulo">Nome da Barraca</label>
+        <input type="text" id="titulo" name="titulo" placeholder="Digite o título" required />
+
+        <label for="descricao">Descrição</label>
+        <textarea id="descricao" name="descricao" placeholder="Descrição detalhada" required></textarea>
+
+        <label for="data">Data</label>
+        <input type="date" id="data" name="data" required />
+
+        <label for="hora">Hora</label>
+        <input type="time" id="hora" name="hora" required />
+
+        <label for="local">Local do Evento</label>
+        <input type="text" id="local" name="local" placeholder="Local do evento" required />
+
+        <label for="status">Locação</label>
+        <select id="status" name="status" required>
+          <option value="local-1">Local-1</option>
+          <option value="local-2">Local-2</option>
+          <option value="local-3">Local-3</option>
+          <option value="local-4">Local-4</option>
+          <option value="local-5">Local-5</option>
+          <option value="local-6">Local-6</option>
+          <option value="local-7">Local-7</option>
+          <option value="local-8">Local-8</option>
+          <option value="local-9">Local-9</option>
+          <option value="local-10">Local-10</option>
+        </select>
+
+        <button type="submit">Salvar Barraca</button>
+      </form>
+    </main>
+  </div>
+</body>
+</html>

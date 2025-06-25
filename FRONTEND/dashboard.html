@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dashboard - Sistema de Eventos</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>EVENTOS</h2>
+      <nav>
+        <a href="dashboard.html" class="active">Dashboard</a>
+        <a href="cadastrarevento.html">Cadastrar Barracas</a>
+        <a href="eventos.html">Meus Eventos</a>
+        <a href="perfil.html">Perfil</a>
+        <a href="cadastrocredenciados.html">Cadastrar De Credenciados</a>
+        <a href="index.html">Sair</a>
+      </nav>
+    </aside>
+    <main class="main-content">
+      <header>
+        <h1>Eventos</h1>
+      </header>
+
+      <section class="cards">
+        <article class="card card-blue">
+          <h3>Eventos Ativos</h3>
+          <p class="card-number">5</p>
+        </article>
+        <article class="card card-green">
+          <h3>Eventos Concluídos</h3>
+          <p class="card-number">12</p>
+        </article>
+        <article class="card card-red">
+          <h3>Eventos Cancelados</h3>
+          <p class="card-number">1</p>
+        </article>
+      </section>
+
+      <section class="recent-events">
+        <h2>Últimos Eventos</h2>
+        <ul class="event-list">
+          <li>
+            <span class="event-title">Reunião de equipe</span>
+            <span class="event-date">25/06/2025 10:00</span>
+            <span class="event-status status-active">Ativo</span>
+          </li>
+          <li>
+            <span class="event-title">Treinamento</span>
+            <span class="event-date">20/06/2025 14:00</span>
+            <span class="event-status status-completed">Concluído</span>
+          </li>
+          <li>
+            <span class="event-title">Apresentação projeto</span>
+            <span class="event-date">18/06/2025 09:00</span>
+            <span class="event-status status-cancelled">Cancelado</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
