@@ -53,7 +53,7 @@ Esta seção detalha o ambiente de desenvolvimento, as tecnologias utilizadas e 
 
 A arquitetura do sistema é dividida em Frontend (interface do usuário) e Backend (serviços e API), utilizando as seguintes tecnologias principais:
 
--Frontend: uso de HTML e CSS, criação de botões, inputs e outputs
+- Frontend: uso de HTML e CSS, criação de botões, inputs e outputs
 - Backend: ,Uso de JavaScripit, Funções para cada ação
 - Controle de Versão: Git, GitHub
   
