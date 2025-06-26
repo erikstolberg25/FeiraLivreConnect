@@ -1,6 +1,5 @@
 
-
-
+//o primeiro treco começa aqui
     let db;
     const request = indexedDB.open('CredenciadosDB', 1);
 
@@ -17,8 +16,6 @@
     request.onerror = function(event) {
         console.error('Erro ao abrir o IndexedDB:', event.target.error);
         };
-
-    // --- Cadastro ---
     document.getElementById('cadastroForm').addEventListener('submit', function(e) {
         e.preventDefault();
 
@@ -83,9 +80,7 @@
             };
         });
 
-
-    //codigo para cadastro de envento, vai necessitar ajuste de codigo para integrar tudo no mesmo indexdb.
-  
+        //um treco comeca aqui  
         let db;
         const request = indexedDB.open('EventosDB', 1);
 
@@ -133,9 +128,7 @@
             alert('Erro ao cadastrar o evento.');
             };
         });
-    </script>
 
-//script para atualização de status de evento
 function contarEventos() {
     const transaction = dbEventos.transaction(['eventos'], 'readonly');
     const store = transaction.objectStore('eventos');
