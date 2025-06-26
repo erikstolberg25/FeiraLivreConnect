@@ -1,6 +1,6 @@
 
 
-<script>
+
     let db;
     const request = indexedDB.open('CredenciadosDB', 1);
 
@@ -82,13 +82,10 @@
         alert('Erro ao buscar usuário.');
             };
         });
-</script>
-</body >
-</html >
 
 
     //codigo para cadastro de envento, vai necessitar ajuste de codigo para integrar tudo no mesmo indexdb.
-    <script>
+  
         let db;
         const request = indexedDB.open('EventosDB', 1);
 
