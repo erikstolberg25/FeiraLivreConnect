@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Login - Sistema de Eventos</title>
-<link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - Sistema de Eventos</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
-  <div class="login-container">
+
+<body class="login-page"> <div class="login-container">
     <form class="login-form" action="#" method="post">
       <h2>Entrar</h2>
-      <input type="email" placeholder="E-mail institucional" required />
-      <input type="password" placeholder="Senha" required />
-      <button onclick="window.location.href='dashboard.html'">Entrar</button>
-      <a href="recuperarsenha.html" class="link-recuperar-senha">Esqueceu a senha?</a>
+      <input type="email" id="loginEmail" placeholder="E-mail institucional" required />
+      <input type="password" id="loginSenha" placeholder="Senha" required />
+      <button type="submit">Entrar</button> <a href="recuperarsenha.html" class="link-recuperar-senha">Esqueceu a senha?</a>
       <a href="cadastrar-usuario.html" class="link-recuperar-senha">Cadastrar Usuário</a>
     </form>
   </div>
-</body>
+  <script src="script.js"></script> </body>
+
 </html>
